@@ -17,8 +17,12 @@ Novice (red) - Intermediate (orange) - Proficient (yellow-green) - Distinguished
 [![Spanish](https://img.shields.io/badge/Spanish-Novice-red.svg)]()
 [![French](https://img.shields.io/badge/French-Novice-red.svg)]()
 
-## Social Accounts:
-![freeCodeCamp]()
+### Platforms:
+[![CodePen](https://img.shields.io/badge/CodePen-Master-brightgreen.svg)]()
+[![jsfiddle](https://img.shields.io/badge/jsfiddle-Proficient-yellowgreen.svg)]()
+[![Unity](https://img.shields.io/badge/Unity-Intermediate-orange.svg)]()
+[![Source Engine](https://img.shields.io/badge/Source_Engine-Novice-red.svg)]()
+
 
 
 

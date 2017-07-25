@@ -44,7 +44,7 @@ padding: 5px;
 cursor: pointer;
 font-weight: bold;
 font-size: 150%;
-background: #000;
+background: #FF9933;
 top: 40%;
 left: 19%;
 position: absolute;
@@ -52,7 +52,31 @@ border: none;
 }
 
 input.Writing:hover {
-background: #3366cc;
-} </style>
+background: #FF9933;
+} 
 
+.writing-text {
+  position: absolute;
+  top: 41%;
+  left: 27%;
+}
 
+p a:hover {
+   color: white;
+}
+
+p a:visited {
+   color: white;
+}
+
+p a:link {
+   color: white;
+}
+
+p a:active {
+   color: white;
+}
+
+.fa-cog {
+  color: white;
+}

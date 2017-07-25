@@ -1,1 +1,58 @@
+.sidebar {
+  background-color: #D8DEE2;
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: 0.3px solid black;
+  z-index: 1;
+}
+
+.picture {
+  position: absolute;
+  border: 6px solid white;
+  top: 4%;
+  left: 22%;
+}
+
+.name {
+  position: absolute;
+  color: #546773;
+  top: 27%;
+  left: 29%;
+}
+
+.job-title {
+  position: absolute;
+  color: #546773;
+  top: 30%;
+  left: 33%;
+}
+
+.email {
+  position: absolute;
+  color: #546773;
+  top: 33%;
+  left: 26%;
+}
+
+input.Writing {
+width: 200px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #000;
+top: 40%;
+left: 19%;
+position: absolute;
+border: none;
+}
+
+input.Writing:hover {
+background: #3366cc;
+} </style>
+
 

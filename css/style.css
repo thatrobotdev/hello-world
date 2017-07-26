@@ -3,7 +3,7 @@
   background-color: #D8DEE2; /* Changing sidebar background to gray */
   width: 350px; 
   height: 100%; /* Sidebar is 100% of the page */
-  position: absolute; /* Makes sidebar scroll with page */
+  position: fixed; /* Makes sidebar scroll with page */
   border-top: none; 
   border-left: none; 
   border-bottom: none; 
@@ -139,5 +139,12 @@ p a:active {
   color: white;
 }
 
+/* Styles intro text on the top */
+.intro {
+  position: absolute;
+  left: 30%;
+  top: 3%;
+  font-family: 'Raleway';
+}
 
 

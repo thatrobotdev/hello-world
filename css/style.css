@@ -1,61 +1,123 @@
-.sidebar {
-  background-color: #D8DEE2;
-  width: 350px;
-  height: 100%;
-  position: absolute;
-  border-top: none;
-  border-left: none;
-  border-bottom: none;
-  border-right: 0.3px solid black;
-  z-index: 1;
+/* Start Sidebar Elements */
+.sidebar { /* Sidebar Styling */
+  background-color: #D8DEE2; /* Changing sidebar background to gray */
+  width: 350px; 
+  height: 100%; /* Sidebar is 100% of the page */
+  position: absolute; /* Makes sidebar scroll with page */
+  border-top: none; 
+  border-left: none; 
+  border-bottom: none; 
+  border-right: 0.3px solid black; /* Solid border on right of sidebar */
+  z-index: 1; /* Sidebar rises above everything else in its path*/
 }
 
 .picture {
-  position: absolute;
-  border: 6px solid white;
-  top: 4%;
+  position: absolute; /* Goes with sidebar */
+  border: 6px solid white; /* Solid white border around picture */
+  top: 4%; 
   left: 22%;
 }
 
 .name {
-  position: absolute;
-  color: #546773;
+  position: absolute; /* Goes with sidebar */
+  color: #546773; /* Makes text a dark gray */
   top: 27%;
   left: 29%;
 }
 
 .job-title {
-  position: absolute;
-  color: #546773;
+  position: absolute; /* Goes with sidebar */
+  color: #546773; /* Makes text a dark gray */
   top: 30%;
   left: 33%;
 }
 
 .email {
-  position: absolute;
-  color: #546773;
+  position: absolute; /* Goes with sidebar */
+  color: #546773; /* Makes text a dark gray */
   top: 33%;
   left: 26%;
 }
 
-input.Writing {
+input.Writing { /* Medium Button Styling */
 width: 200px;
 padding: 5px;
 cursor: pointer;
 font-weight: bold;
 font-size: 150%;
-background: #FF9933;
+background: #FF9933; /* Makes background orange */
 top: 40%;
 left: 19%;
-position: absolute;
+position: absolute; /* Goes with sidebar */
 border: none;
 }
 
-.writing-text {
-  position: absolute;
+.writing-text { /* Medium Button Text Styling */
+  position: absolute; /* Goes with sidebar */
   top: 41%;
   left: 27%;
 }
+
+input.freeCodeCamp { /* freeCodeCamp Button Styling */
+width: 200px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #FF9933; /* Makes background orange */
+top: 58%;
+left: 19%;
+position: absolute; /* Goes with sidebar */
+border: none;
+}
+
+.freeCodeCamp-text { /* freeCodeCamp Button Text Styling */
+  position: absolute; /* Goes with sidebar */
+  top: 59.1%;
+  left: 30%;
+}
+
+input.GitHub { /* GitHub Button Styling */
+width: 200px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #FF9933; /* Makes background orange */
+top: 46%;
+left: 19%;
+position: absolute; /* Goes with sidebar */
+border: none;
+}
+
+.GitHub-text { /* GitHub Button Text Styling */
+  position: absolute;
+  top: 47.2%;
+  left: 37%;
+}
+
+input.StackOverflow { /* Stack Overflow Button Styling */
+width: 200px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #FF9933; /* Makes background orange */
+top: 52%;
+left: 19%;
+position: absolute; /* Goes with sidebar */
+border: none;
+}
+
+.StackOverflow-text { /* Stack Overflow Button Text Styling */
+  position: absolute;
+  top: 53%;
+  left: 30%;
+}
+
+/* End Sidebar Elements */
+
+/* Makes all links white */
 
 p a:hover {
    color: white;
@@ -75,44 +137,6 @@ p a:active {
 
 .fa-cog {
   color: white;
-}
-
-input.GitHub {
-width: 200px;
-padding: 5px;
-cursor: pointer;
-font-weight: bold;
-font-size: 150%;
-background: #FF9933;
-top: 46%;
-left: 19%;
-position: absolute;
-border: none;
-}
-
-.GitHub-text {
-  position: absolute;
-  top: 47.2%;
-  left: 37%;
-}
-
-input.StackOverflow {
-width: 200px;
-padding: 5px;
-cursor: pointer;
-font-weight: bold;
-font-size: 150%;
-background: #FF9933;
-top: 52%;
-left: 19%;
-position: absolute;
-border: none;
-}
-
-.StackOverflow-text {
-  position: absolute;
-  top: 53%;
-  left: 30%;
 }
 
 
